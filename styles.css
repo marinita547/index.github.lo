@@ -1,0 +1,567 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e2dcdc;
+}
+
+header {
+    background-color: #f7c743;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(254, 254, 255);
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffd240;
+    color: rgb(0, 0, 0);
+}
+/* Contenedor de búsqueda */
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Campo de búsqueda */
+#search-input {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+#search-input:focus {
+    border-color: #f7ff81;
+}
+
+
+
+
+/* Estilo de resaltado para los resultados */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #a2f7fd;
+    color: rgb(27, 26, 26);
+    padding: 15px;
+    text-align: center;
+
+
+}
+
+.imagen-redonda {
+    border-radius: color black;
+    width: 150px;
+    color: black;
+    /* Ajusta el tamaño */
+    height: 200px;
+    color: black;
+    /* Ajusta el tamaño */
+    border-radius: 60%;
+    color: black;
+    /* Hace que los bordes sean redondeados al 100% */
+    object-fit: cover;
+    color: black;
+    /* Para asegurarse de que la imagen mantenga la proporción */
+
+    position: absolute;
+    /* Posiciona la imagen de forma absoluta */
+    top: 10px;
+    /* Ajusta la distancia desde la parte superior */
+    left: 5px;
+    /* Ajusta la distancia desde el lado izquierdo */
+    width: 200px;
+    /* Tamaño pequeño de la imagen */
+    width: 150px;
+    /* Ajusta el ancho a 150 píxeles */
+    height: auto
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #080808;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.carrusel {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carrusel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    /* O el tamaño que desees */
+    height: 400px;
+    /* Ajusta según tus necesidades */
+}
+
+.imagenes {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.imagenes img {
+    width: 100%;
+    display: none;
+    /* Ocultar todas las imágenes por defecto */
+}
+
+.imagenes img.activo {
+    display: block;
+    /* Solo mostrar la imagen activa */
+}
+
+
+
+a {
+    border: 1px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #f1cd53;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #f5be48;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+#search {
+    text-align: center;
+    margin: 30px;
+}
+
+#search input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#search button {
+    padding: 10px 20px;
+    background-color: #facb32;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#categories,
+#products {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.category,
+.product {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+footer {
+    background-color: #746161;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+button:hover {
+    background-color: rgb(224, 197, 47);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #f3d449;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #f3bf31;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+#search {
+    text-align: center;
+    margin: 30px;
+}
+
+#search input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#search button {
+    padding: 20px 20px;
+    background-color: #e7a958;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#categories,
+#products {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.category,
+.product {
+    background-color: white;
+    border: 3px solid #ddd;
+    padding: 30px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+footer {
+    background-color: #ffda76;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+
+.tarjeta {
+    width: 300px;
+    /* Ancho de la tarjeta */
+    border: 1px solid #000000;
+    /* Borde con color suave */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /* Sombra para dar profundidad */
+    overflow: hidden;
+    /* Oculta cualquier desbordamiento */
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    /* Fuente general */
+    text-align: center;
+    /* Centrar el contenido */
+    background-color: rgb(255, 255, 255);
+    /* Fondo blanco */
+    margin: 20px auto;
+    /* Centra la tarjeta horizontalmente */
+}
+
+/* Estilos para la imagen */
+.tarjeta img {
+    width: 100%;
+    /* La imagen ocupará todo el ancho de la tarjeta */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+}
+
+/* Estilos para el contenido de la tarjeta */
+.tarjeta .contenido {
+    padding: 20px;
+}
+
+/* Nombre o título destacado */
+.tarjeta h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Descripción o rol */
+.tarjeta p {
+    font-size: 16px;
+    color: #777;
+    margin: 5px 0;
+}
+
+/* Botón o enlace */
+.tarjeta a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    /* Color del botón */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    /* Transición para el hover */
+}
+
+/* Efecto hover para el botón */
+.tarjeta a:hover {
+    background-color: #45a049;
+    /* Cambia el color al pasar el ratón */
+}
+
+button {
+    background-color: #777;
+    /* Color de fondo verde */
+    border: none;
+    /* Sin borde */
+    color: rgb(255, 247, 247);
+    /* Texto blanco */
+    padding: 15px 32px;
+    /* Relleno */
+    text-align: center;
+    /* Texto centrado */
+    text-decoration: none;
+    /* Sin subrayado */
+    display: inline-block;
+    /* Mostrar en línea */
+    font-size: 16px;
+    /* Tamaño de fuente */
+    margin: 4px 2px;
+    /* Margen */
+    cursor: pointer;
+    /* Cambia a cursor de mano */
+    border-radius: 12px;
+    /* Esquinas redondeadas */
+    transition: green 0.4s ease;
+    /* Transición de color suave */
+}
+
+#message {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+h1,
+h2,
+h4,
+h5 {
+    font-size: 16px;
+    color: #000000;
+    /* Color gris */
+    background-color: #ecf0f1;
+    /* Fondo suave */
+    padding: 15px;
+    border-left: 5px solid #3498db;
+    /* Línea de borde decorativa */
+    border-radius: 5px;
+    /* Esquinas redondeadas */
+}
+ /* Estilos para la tarjeta */
+ .tarjeta {
+     width: 300px;
+     /* Ancho de la tarjeta */
+     border: 1px solid #000000;
+     /* Borde con color suave */
+     border-radius: 10px;
+     /* Bordes redondeados */
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+     /* Sombra para dar profundidad */
+     overflow: hidden;
+     /* Oculta cualquier desbordamiento */
+     font-family: Arial, sans-serif;
+     color: aliceblue;
+     /* Fuente general */
+     text-align: center;
+     /* Centrar el contenido */
+     background-color: rgb(255, 255, 255);
+     /* Fondo blanco */
+     margin: 20px auto;
+     /* Centra la tarjeta horizontalmente */
+ }
+
+ /* Estilos para la imagen */
+ .tarjeta img {
+     width: 100%;
+     /* La imagen ocupará todo el ancho de la tarjeta */
+     height: auto;
+     /* Mantiene la proporción de la imagen */
+ }
+
+ /* Estilos para el contenido de la tarjeta */
+ .tarjeta .contenido {
+     padding: 20px;
+ }
+
+ /* Nombre o título destacado */
+ .tarjeta h2 {
+     margin: 10px 0;
+     font-size: 24px;
+     color: #333;
+ }
+
+ /* Descripción o rol */
+ .tarjeta p {
+     font-size: 16px;
+     color: #777;
+     margin: 5px 0;
+ }
+
+ /* Botón o enlace */
+ .tarjeta a {
+     display: inline-block;
+     margin-top: 15px;
+     padding: 10px 20px;
+     background-color: #4CAF50;
+     /* Color del botón */
+     color: white;
+     text-decoration: none;
+     border-radius: 5px;
+     transition: background-color 0.3s ease;
+     /* Transición para el hover */
+ }
+
+ /* Efecto hover para el botón */
+ .tarjeta a:hover {
+     background-color: #45a049;
+     /* Cambia el color al pasar el ratón */
+ }
+
+ button {
+     background-color: #777;
+     /* Color de fondo verde */
+     border: none;
+     /* Sin borde */
+     color: rgb(255, 247, 247);
+     /* Texto blanco */
+     padding: 15px 32px;
+     /* Relleno */
+     text-align: center;
+     /* Texto centrado */
+     text-decoration: none;
+     /* Sin subrayado */
+     display: inline-block;
+     /* Mostrar en línea */
+     font-size: 16px;
+     /* Tamaño de fuente */
+     margin: 4px 2px;
+     /* Margen */
+     cursor: pointer;
+     /* Cambia a cursor de mano */
+     border-radius: 12px;
+     /* Esquinas redondeadas */
+     transition: green 0.4s ease;
+     /* Transición de color suave */
+ }
+
+ #message {
+     font-size: 16px;
+     font-weight: bold;
+     margin-top: 10px;
+ }
+
+ h1,
+ h2,
+ h4,
+ h5 {
+     font-size: 16px;
+     color: #000000;
+     /* Color gris */
+     background-color: #ecf0f1;
+     /* Fondo suave */
+     padding: 15px;
+     border-left: 5px solid #3498db;
+     /* Línea de borde decorativa */
+     border-radius: 5px;
+     /* Esquinas redondeadas */
+ }

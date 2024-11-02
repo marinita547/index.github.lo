@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot de Comedor</title>
+    <link rel="stylesheet" href="styles.css">
+<body>
+<header>
+    <h1>AlMUERZOS Y TIPICOS MARGARITA</h1>
+    <div class="contenido">
+        <img src="Logo Parrilla Argentina Circular Marrón y Negro.jpg" alt="Descripción de la imagen"
+            class="imagen-redonda" class="imagen-izquierda">
+        <p>
+        <h3> </h3>
+        <nav>
+            <ul>
+        
+                <li><a href="paginafinal.html">principal</a></li>
+                
+        
+        
+            </ul>
+        
+        </nav>
+        <body>
+            
+        </body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        #chatbot {
+            width: 300px;
+            border: 1px solid #3f3f3f;
+            padding: 10px;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #fffab2;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #messages {
+            height: 200px;
+            overflow-y: auto;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            padding: 5px;
+        }
+
+        .message {
+            margin: 5px 0;
+        }
+
+        .user {
+            text-align: right;
+            color: blue;
+        }
+
+        .bot {
+            text-align: left;
+            color: green;
+        }
+
+        #userInput {
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="chatbot">
+        <div id="messages"></div>
+        <input type="text" id="userInput" placeholder="Escribe tu pregunta..." autocomplete="off">
+    </div>
+
+    <script src="chat.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> pidenos ya</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>ALMUERZOS Y TIPICOS MARGARITA</h1>
+        <p>
+        <h3></h3>
+        </p>
+        <img src="Logo Parrilla Argentina Circular Marrón y Negro.jpg" alt="Descripción de la imagen" class="imagen-redonda" class="imagen-izquierda"
+            class="led-border">
+    </header>
+    <nav>
+        <ul>
+        
+            <li><a href="contacto2.html">Contactos</a></li>
+            <li><a href="chat.html" > seyi</a></li>
+
+
+        </ul>
+
+    </nav>
+
+    <style>
+        .producto {
+            margin-bottom: 10px;
+        }
+    </style>
+    </head>
+    
+    <body>
+        <h1>Buscador de Productos de Comida</h1>
+    
+        <div id="search">
+            <h2>Encuentra lo que mas te guste</h2>
+            <input type="text" placeholder="Busca por nombre o tipo de comida...">
+            <button>Buscar</button>
+            <button>
+        <script>
+
+            // Elementos del DOM
+            const buscador = document.getElementById('buscador');
+            const resultados = document.getElementById('resultados');
+
+            // Función para mostrar los productos filtrados
+            function mostrarResultados(filtro) {
+                resultados.innerHTML = ''; // Limpiar resultados anteriores
+                const productosFiltrados = productos.filter(producto =>
+                    producto.nombre.toLowerCase().includes(filtro.toLowerCase()) ||
+                    producto.descripcion.toLowerCase().includes(filtro.toLowerCase())
+                );
+
+                if (productosFiltrados.length > 0) {
+                    productosFiltrados.forEach(producto => {
+                        const divProducto = document.createElement('div');
+                        divProducto.classList.add('producto');
+                        divProducto.innerHTML = `<strong>${producto.nombre}</strong>: ${producto.descripcion}`;
+                        resultados.appendChild(divProducto);
+                    });
+                } else {
+                    resultados.innerHTML = '<p>No se encontraron productos.</p>';
+                }
+            }
+
+            // A Milton le gustan los niños JAJA
+            buscador.addEventListener('input', (e) => {
+                const filtro = e.target.value;
+                mostrarResultados(filtro);
+            });
+
+            // HECTOR no se baña
+            mostrarResultados('');
+        </script>
+    </body>
+    
+    </html>
+    
+    </div>
+    
+            </script>
+        
+
+        </button>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form action="#">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Correo:</label>
+                <input type="email" id="email" name="email">
+                <button type="submit">Enviar</button>
+            </form>
+            <head><h2>GRACIASPOR PREFERIRNOS: <br> lo que tu gustes aqui te lo preparamos tenemos 16 años de estar laborando puedes dejarnos tu nombre para tener tu registroy te preparamos la comida que tu gustes <br> la autenticidad de nuestros alimentos es lo que nos identifica  aqui abajo te dejamos algunos de nuestros productos  ¡DISFRUTA! <br> ATT:Margarita </h2></head>
+   
+        </div>
+    <section id="categories">
+        <div class="category">
+            <img src="almuerzo 1.jpeg" alt="" width="60%" height="70%">
+            <h3>fajitas de carne</h3>
+            
+            <button onclick="mostrarAlerta()">Añadir </button>
+            
+            <script>
+                function mostrarAlerta() {
+                    alert("Añadido al carrito");
+                }
+            </script>
+        </div>
+        <div class="category">
+            <img src="almuerzo2.jpg" alt="" width="60%" height="70%">
+            <h3>carne a la plancha</h3>
+            <button onclick="mostrarAlerta()">Añadir </button>
+            
+            <script>
+                function mostrarAlerta() {
+                    alert("Añadido al carrito");
+                }
+            </script>
+        </div>
+        <div class="category">
+            <img src="almuerzo 3.jpg" alt="" width="60%" height="70%">
+            <h3> sopa de patas</h3>
+            <button onclick="mostrarAlerta()">Añadir </button>
+            
+            <script>
+                function mostrarAlerta() {
+                    alert("Añadido al carrito");
+                }
+            </script>
+        </div>
+    </section>
+    <section id="products">
+        <div class="product">
+            <img src="tipico 1.jpg" alt="" width="60%" height="70%">
+            <h3>pastelitos de masa</h3>
+            <button onclick="mostrarAlerta()">Añadir</button>
+            
+            <script>
+                function mostrarAlerta() {
+                    alert("Añadido al carrito");
+                }
+            </script>
+
+        </div>
+        <div class="product">
+            <img src="tipico 2.webp" alt="" width="60%" height="70%%">
+            <h3> yuca con chicharron</h3>
+            <button onclick="mostrarAlerta()">Añadir </button>
+            
+            <script>
+                function mostrarAlerta() {
+                    alert("Añadido al carrito");
+                }
+            </script>
+        </div>
+        <div class="product">
+            <img src="tipico 3.jpg" alt="" width="60%" height="70%">
+            <h3>tamalitos de elote</h3>
+            <button onclick="mostrarAlerta()">Añadir </button>
+            
+            <script>
+                function mostrarAlerta() {
+                    alert("Añadido al carrito");
+                }
+            </script>
+            
+        </div>
+
+    </section>
+    <footer>
+        
+    </footer>
+</body>
+
+</html>
+    
+    </section>
+    
+
+    <footer>
+        <h3>©2024 Almuerzos y tipicos Margarita-gracias por preferirnos-derechos reservados</h3>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
